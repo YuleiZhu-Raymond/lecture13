@@ -4,3 +4,8 @@ git log
 git add .
 git commit -m 'add something'
 git diff
+git checkout -- 1.txt (reset working tree)
+git reset HEAD 2.txt (reset staging)
+git reset --hard HEAD~1
+git reset --hard HEAD^
+git reset --hard commitId
